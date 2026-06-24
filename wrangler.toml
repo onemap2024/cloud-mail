@@ -23,6 +23,11 @@ database_id = "a614946e-cf7c-4333-86a0-b7b9bc7e9704"
 binding = "kv"
 id = "3d8c1b80bc50414fa19d5973365dbc8e"
 
+[vars]
+jwt_secret = "luchu-cloudmail-2024-secure-init-key-7x9k2"
+admin = "ashton@luchuenergy.com"
+domain = "[\"luchuenergy.com\"]"
+
 [triggers]
 crons = ["0 16 * * *"]
 

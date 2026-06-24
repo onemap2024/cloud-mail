@@ -59,3 +59,8 @@ export default defineConfig(({mode}) => {
         }
     }
 })
+export default defineConfig({
+  // ... 现有的配置 ...
+  base: './'  // 加这一行
+})
+

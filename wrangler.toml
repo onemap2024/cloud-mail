@@ -14,6 +14,11 @@ directory = "./mail-worker/dist"
 not_found_handling = "single-page-application"
 run_worker_first = true
 
+[[d1_databases]]
+binding = "db"
+database_name = "cloud-mail-db"
+database_id = "a614946e-cf7c-4333-86a0-b7b9bc7e9704"
+
 [[kv_namespaces]]
 binding = "kv"
 id = "3d8c1b80bc50414fa19d5973365dbc8e"
